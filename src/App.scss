@@ -77,3 +77,31 @@ hr {
   border: solid 1px lightgray;
   margin: 2em 0;
 }
+
+.singleBeer {
+  margin-top: 2em;
+  img {
+    height: 300px;
+  }
+  h2 {
+    margin: 1em 0 0.5em 0;
+    font-weight: 400;
+  }
+  h4 {
+    color: rgb(131, 128, 128);
+    font-weight: 500;
+    margin: 0 0 0.5em 0;
+    font-size: larger;
+  }
+  p {
+    text-align: left;
+    width: 300px;
+    margin: 1em auto;
+  }
+}
+
+.technicalDetails {
+  background-color: antiquewhite;
+  width: 300px;
+  margin: 0 auto;
+}
