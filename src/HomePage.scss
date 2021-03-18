@@ -1,0 +1,20 @@
+body {
+  width: 700px;
+  margin: auto;
+}
+
+.homepageTitle,
+a:link {
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
+
+.sectionHeader {
+  margin-top: 2em;
+  p {
+    color: grey;
+    font-weight: 300;
+  }
+}
