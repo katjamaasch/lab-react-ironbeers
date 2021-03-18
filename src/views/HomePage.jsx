@@ -6,10 +6,6 @@ import allBeersImage from './../assets/beers.png';
 import './../HomePage.scss';
 
 class HomePage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
     return (
       <div>

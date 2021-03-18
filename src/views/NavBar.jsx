@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
+import homeIcon from './../assets/home.png';
+import './../App.scss';
 
 const NavBar = withRouter(() => {
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/beers">All Beers</Link>
-      <Link to="/random-beer">Random Beer</Link>
-      <Link to="/new-beer">New Beer</Link>
+      <div className="navbar">
+        <Link to="/">
+          <img src={homeIcon} alt="" />
+        </Link>
+      </div>
     </nav>
   );
 });

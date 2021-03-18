@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import NavBar from './views/NavBar';
+//import NavBar from './views/NavBar';
 import Beers from './views/Beers';
 import RandomBeer from './views/RandomBeer';
 import NewBeer from './views/NewBeer';
@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar></NavBar>
         <Switch>
           <Route path="/" component={HomePage} exact></Route>
           <Route path="/beers" component={Beers} exact></Route>
