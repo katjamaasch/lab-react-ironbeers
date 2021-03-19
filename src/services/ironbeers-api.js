@@ -35,3 +35,15 @@ export const randomBeer = async () => {
     console.log('the api call for the random beer went wrong');
   }
 };
+
+export const createBeer = async () => {
+  try {
+    const response = await axios.post(
+      `https://ih-beers-api2.herokuapp.com/beers/random`
+    );
+    const body = response.data;
+    return body;
+  } catch {
+    console.log('the api call for the random beer went wrong');
+  }
+};

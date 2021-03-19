@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import hangover from './../assets/hangover.gif';
+import { Link } from 'react-router-dom';
 
 class Hangover extends Component {
   constructor(props) {
@@ -8,7 +10,10 @@ class Hangover extends Component {
   render() {
     return (
       <div>
-        <h1>Hangover</h1>
+        <img src={hangover} alt="uh-uh" />
+        <p>
+          <Link to="/">Take me back to the good stuff!</Link>
+        </p>
       </div>
     );
   }

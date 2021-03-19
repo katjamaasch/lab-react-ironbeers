@@ -1,5 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
 //import NavBar from './views/NavBar';
 import Beers from './views/Beers';
 import SingleBeer from './views/SingleBeer';
@@ -20,6 +25,7 @@ function App() {
           <Route path="/random-beer" component={RandomBeer} exact></Route>
           <Route path="/new-beer" component={NewBeer} exact></Route>
           <Route path="/error" component={Hangover} exact></Route>
+          <Redirect to="/error"></Redirect>
         </Switch>
       </Router>
     </div>

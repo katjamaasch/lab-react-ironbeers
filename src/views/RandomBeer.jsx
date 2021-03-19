@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './../views/NavBar';
 import { randomBeer } from './../services/ironbeers-api';
-import { Link } from 'react-router-dom';
 
 class RandomBeer extends Component {
   constructor(props) {

@@ -36,7 +36,7 @@ class HomePage extends Component {
         <div className="sectionHeader">
           <Link to="/new-beer">
             <img src={newBeerImage} alt="all beers" />
-            <h2 className="homepageTitle">New beer in da house</h2>
+            <h2 className="homepageTitle">New beer in da house?!</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
               quod amet natus illum non, facilis corporis eum libero maiores
