@@ -36,11 +36,14 @@ export const randomBeer = async () => {
   }
 };
 
-export const createBeer = async () => {
+export const createBeer = async (newbeer) => {
+  console.log('newbeer: ', newbeer);
   try {
     const response = await axios.post(
-      `https://ih-beers-api2.herokuapp.com/beers/random`
+      `https://ih-beers-api2.herokuapp.com/beers/new`,
+      newbeer
     );
+    console.log('response: ', response);
     const body = response.data;
     return body;
   } catch {
